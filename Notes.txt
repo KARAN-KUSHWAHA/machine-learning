@@ -1,0 +1,46 @@
+What is Machine Learning?
+	- Machine Learning a subfield of AI. Machine Learning is the science that given computer the ability to learn something without being explicitly programmed.
+	Example: Netflix recommendations, Chess/Go/Checkers games, Email Spam detection, Transcription etc, Face Recognition in Facebook, Amazon recommendations etc.
+	
+Types of Machine Learning Algorithms
+	- Supervised Machine Learning:
+		- Used in most of the real-world applications. Seen most rapid advancement.
+		- 
+	- Unsupervised Learning:
+	- Recommender Systems
+	- Reinforcement Learning
+	
+
+Supervised Learning: (Most Popular) (Labelled Data)
+	- It learns from being given "Right Answer".
+	- These algorithm gives X --> Y mapping. 
+	- The algorithm take in some examples to learn from and from these right answers the algorithm learns and give the reasonable prediction.
+	- Example:
+		- X = Email, Y = Spam/Not Spam
+		- Online Advertising algorithm decides the advertisement that you are most likely to click on.
+		- Identifying dent/scratch on the finished product. (Can be used in Indian Oil)
+		- House Price Prediction Algorithm:
+			- Labelled data of the prices of the house against the area. Now predict the price of the house based on the area. 
+			- Regression: It involves predicting a number from many possible values.
+			
+Types of Supervised Learning:
+	- Regression: It involves predicting a number from infinitely many possible values.
+		- Example: Market Share Prediction, House Price Prediction etc.
+	- Classification:
+		Example: 
+		- Whether a picture is that of a cat or a dog.
+		
+		- Breast cancer detection falls in this category.
+			- The ML Algorithm taken a labelled data set of past diagnosis and then it tries to predict if a lump is malignant or benign.
+			- X axis will have the size of tumour and they Y axis will have 0-benign or 1-malignant.
+		- It is different from Regression because the possible output is from a small limited, finite possible values.
+
+Unsupervised Learning:
+	- In unsupervised learning we are given data that is not associated with output data Y.
+	- Example: Here the job is to find structure of pattern in the Data.
+	- Example: Lubes Customer Segmentation Use Case
+	- Example: Google new clusters similar news in a category.
+			
+			
+			
+			
