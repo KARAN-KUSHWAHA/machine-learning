@@ -100,4 +100,24 @@ Cost function will tell us how well the model is doing. Using this we can improv
 Sum(`(ŷ - y)^2`)/2m for  = Avg. Squared Error
 By convention cost function divides by 2 to make our calculations neater.
 
-![alt text](image-2.png)
+![alt text](image-3.png)
+
+## **Gradient Descent (Important)**
+It is a optimization algorithm used in machien learning to **minimize a function** usuall a cost function or loss function by literally moving in the direction of the steepest descent which is determined by the **negative of the gradient**.
+It is useful not just for linear regression, but also for the neural network models/deep learning models. 
+
+Cost Function: J(w, b)
+Want: min J(w, b)
+Solution: Gradient Descent
+
+Outline: 
+  - Start with some value of w, b. Generally 0.
+  - Keep changing w, b to reduce J(w, b)
+  - Until we settle at or near a minimum 
+
+![alt text](image-4.png)
+Here `α` = Learning Rate (Usually between 0 and 1. e.g. 0.001). Choosing `Optima value of alpha` is very important.
+
+`Drivative`: Helps find the direction to move in order to minimize the error. It tells how the cost function changes with respec to the model's parameters.
+
+![alt text](image-5.png)
